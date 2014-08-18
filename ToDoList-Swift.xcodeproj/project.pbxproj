@@ -12,6 +12,8 @@
 		3BBBE71919A2625F005C11E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBBE71719A2625F005C11E3 /* Main.storyboard */; };
 		3BBBE71B19A2625F005C11E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBBE71A19A2625F005C11E3 /* Images.xcassets */; };
 		3BBBE72719A2625F005C11E3 /* ToDoList_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBBE72619A2625F005C11E3 /* ToDoList_SwiftTests.swift */; };
+		3BBBE73119A26562005C11E3 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBBE73019A26562005C11E3 /* TaskManager.swift */; };
+		3BBBE73319A28668005C11E3 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBBE73219A28668005C11E3 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		3BBBE72019A2625F005C11E3 /* ToDoList-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDoList-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBBE72519A2625F005C11E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBBE72619A2625F005C11E3 /* ToDoList_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList_SwiftTests.swift; sourceTree = "<group>"; };
+		3BBBE73019A26562005C11E3 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		3BBBE73219A28668005C11E3 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				3BBBE71319A2625F005C11E3 /* AppDelegate.swift */,
 				3BBBE71519A2625F005C11E3 /* ViewController.swift */,
+				3BBBE73219A28668005C11E3 /* TaskViewController.swift */,
+				3BBBE73019A26562005C11E3 /* TaskManager.swift */,
 				3BBBE71719A2625F005C11E3 /* Main.storyboard */,
 				3BBBE71A19A2625F005C11E3 /* Images.xcassets */,
 				3BBBE71119A2625F005C11E3 /* Supporting Files */,
@@ -208,6 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBBE73119A26562005C11E3 /* TaskManager.swift in Sources */,
+				3BBBE73319A28668005C11E3 /* TaskViewController.swift in Sources */,
 				3BBBE71619A2625F005C11E3 /* ViewController.swift in Sources */,
 				3BBBE71419A2625F005C11E3 /* AppDelegate.swift in Sources */,
 			);
