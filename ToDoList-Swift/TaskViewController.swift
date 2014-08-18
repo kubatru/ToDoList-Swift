@@ -33,12 +33,12 @@ class TaskViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    // Hide keyboard when touch end
+    // Hide the keyboard when touch ends
     override func touchesEnded(touches: NSSet!, withEvent event: UIEvent!) {
         self.view.endEditing(true)
     }
     
-    // Hide keyboard when Enter is pressed
+    // Hide the keyboard when the Enter button is pressed
     func textFieldShouldReturn(textField: UITextField!) -> Bool {
         
         textField.resignFirstResponder()
